@@ -1,0 +1,168 @@
+.body {
+    background-color: #FAFAFA;
+}
+
+.header {
+    background-color: #FFF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.header__container {
+    display: flex;
+    max-width: 933px;
+    margin: 0 auto;
+}
+
+.current-user {
+    margin-left: auto;
+    padding: 15px 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+.current-user__username {
+    color: #262626;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 12px;
+}
+
+.current-user__avatar {
+    height: 22px;
+    width: 22px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.taggram-logo {
+    margin-right: auto;
+    padding: 15px 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 933px;
+    height: 598px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 20px;
+    align-items: left;
+    display: flex;
+}
+
+.image {
+    width: 598px;
+    height: 598px;
+    background-color: #DBDBDB;
+}
+
+.infos {
+    width: 334px;
+    height: 598px;
+}
+
+.publisher {
+    display: flex;
+    border-bottom: 1px solid #DBDBDB;
+    height: 31px;
+    padding: 21px 0 21px 16px;
+}
+
+.publisher__avatar {
+    width: 32px;
+    height: 32px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.publisher-info {
+    margin-left: 16px;
+    text-align: start;
+}
+
+.publisher-info__name {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    color: #262626;
+}
+
+.publisher-info__location {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    color: #262626;
+}
+
+.content-footer {
+    border-top: 1px solid #DBDBDB;
+    position: relative;
+    margin-top: 408px;
+    bottom: 0;
+    height: 117px;
+    width: 334px;
+    text-align: left;
+}
+
+.comments__qt {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 13px 0 5px 16px;
+}
+
+.date {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #8E8E8E;
+    padding: 0 0 0 16px;
+}
+
+hr {
+    background-color:  #DBDBDB;
+    height: 1px; 
+    border: 0;
+}
+
+.comment-area {
+    margin-left: 16px;
+}
+
+form {
+    display: flex;
+    margin-top: 14px;
+}
+
+.textfield {
+    background-color: transparent;
+    border: 0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    color: #262626;
+}
+
+.textfield:focus{
+    background-color: transparent;
+    border: 0;
+}
