@@ -1,3 +1,5 @@
+
+
 (function(apiUrl) {
     function getMe() {
       return fetch(apiUrl + "/me")
@@ -26,7 +28,7 @@
             const $avatar = document.getElementById("publisher-avatar");
             const $location = document.getElementById("publisher-info-location");
             const $image = document.getElementById("image");
-            const $date = document.getElementById("date");
+            const $date = document.getElementById("date-post");
             const $comments_qt = document.getElementById("comments-qt");
     
             $username.innerHTML = post.user.username;
@@ -52,3 +54,7 @@
   
     initialize();
   })("https://taggram.herokuapp.com");
+
+  function sendComment(){
+      console.log("aaaaaaaaa");
+  }

@@ -106,10 +106,51 @@
     color: #262626;
 }
 
+.comments{
+    height: 408px;
+    width: 334px;
+    overflow: auto;
+    display: auto;
+
+    -ms-overflow-style: none;   /* hide scrollbar for IE and Edge */
+    scrollbar-width: none;      /* hide scrollbar for Firefox */
+}
+
+/* hide scrollbar for Chrome, Safari and Opera */
+.comments::-webkit-scrollbar {
+    display: none;
+}
+
+.comment-container {
+    margin: 21px 0px 0px 16px;
+    float: left;
+    display: inline;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment-info {
+    margin: 0px 0px 10px 10px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: left;
+    color: #262626;
+}
+
+.comment-date{
+    font-family: Arial;
+    float: left;
+    margin-left: 42px;
+    font-size: 14px;
+    color: #8E8E8E;
+}
+
+
 .content-footer {
     border-top: 1px solid #DBDBDB;
     position: relative;
-    margin-top: 408px;
     bottom: 0;
     height: 117px;
     width: 334px;
@@ -147,22 +188,43 @@ hr {
 
 form {
     display: flex;
-    margin-top: 14px;
+    margin-top: 19px;
 }
 
 .textfield {
     background-color: transparent;
     border: 0;
+    width: 220px;
+
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height, or 129% */
     color: #262626;
 }
 
 .textfield:focus{
     background-color: transparent;
     border: 0;
+    outline: 0;
+}
+
+.button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #0095F6;
+}
+
+.button:active{
+    color: #a0d6fc;
 }
