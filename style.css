@@ -111,7 +111,6 @@
     width: 334px;
     overflow: auto;
     display: auto;
-
     -ms-overflow-style: none;   /* hide scrollbar for IE and Edge */
     scrollbar-width: none;      /* hide scrollbar for Firefox */
 }
@@ -131,12 +130,13 @@
     display: flex;
 }
 
-.comment-info {
-    margin: 0px 0px 10px 10px;
+.message {
+    padding: 0px 0px 10px 10px;
     font-family: Arial;
     font-size: 14px;
     text-align: left;
     color: #262626;
+    width: 250px;
 }
 
 .comment-date{

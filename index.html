@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
 
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    
     <script src="index.js"></script>
   </head>
 
@@ -34,14 +34,14 @@
                         <div class='publisher-info__location' id='publisher-info-location'></div>
                     </div>
                 </div>
-                <div class='comments'>
-                  <div class='comment-container'>
+                <div class='comments' id="comments">
+                  <!--<div class='comment-container'>
                       <div class='comment'>
                         <div class='publisher__avatar'></div>
                         <div class='comment-info'><b>Gracie.Orn80</b> The AI m the USB feed!</div>
                       </div>
                       <div class='comment-date'>9h</div>
-                  </div>
+                  </div>-->
                   
 
                 </div>
@@ -51,8 +51,8 @@
                     <hr>
                     <div class='comment-area'>
                         <form action="#">
-                            <input type='text' class='textfield' placeholder="Digite um comentário">
-                            <input type='button' value="Enviar" class='button' onclick="sendComment">
+                            <input type='text' class='textfield' placeholder="Digite um comentário" id="textfield">
+                            <input type='button' value="Enviar" class='button' onclick='sendComment("https://taggram.herokuapp.com");'>
                         </form>
                     </div> 
                 </div>
